@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunzetinPTY</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Prompt:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="bgCanvas"></canvas>
+    <div class="cyber-grid"></div>
+    <div class="scanline"></div>
+
+    <div class="container">
+        <!-- Main Header -->
+        <header>
+            <h1 class="title">Sunset In Pattaya </h1>
+            <h1 class="title"> - Y o u n g o m h - </h1>
+            <div class="subtitle-box">
+                <p class="subtitle">
+                    เพลง "Sunset in Pattaya" ของ YOUNGOHM
+                    สื่อถึงความรักโรแมนติกที่เกิดขึ้นท่ามกลางบรรยากาศพระอาทิตย์ตกดินริมหาดพัทยา
+                    เล่าเรื่องราวความรักแรกพบ (It's our first time) ความรู้สึกอบอุ่นอ่อนโยน
+                    และช่วงเวลาที่อยากหยุดเวลาไว้กับคนพิเศษ โดยผสมผสานกลิ่นอายความคลาสสิกของความรักในมุมมองที่โตขึ้น
+                    <br> #ไฟกลางคืน (2025)
+                    <!-- ตัวอย่างแบบที่ 1: ปุ่มกดสีแดง YouTube -->
+                    <a href="https://youtu.be/O90WsctfY4Y?si=-9YBesqTbIMCzONA" target="_blank" class="youtube-link">
+                        <i class="fa-brands fa-youtube">
+                            <br> </i>#𝕾𝖚𝖓𝖘𝖊𝖙 𝖎𝖓 𝕻𝖆𝖙𝖙𝖞𝖆
+
+                    </a>
+
+
+                </p>
+            </div>
+        </header>
+
+        <!-- Ocean Main Image with Date -->
+        <div class="image-wrapper">
+            <img src="yummy.jpg" alt="Sunset Horizon" class="main-img" id="mainImage">
+            <div class="img-info-bar">
+                <div class="memory-date-badge">
+                    <i data-lucide="calendar" style="width: 12px; height: 12px;"></i>
+                    <span>27.10.2026</span>
+
+                </div>
+                <div class="img-caption">
+                    <i data-lucide="map-pin"
+                        style="width: 12px; height: 12px; display: inline; vertical-align: middle;"></i>
+                    𝕀 𝕕𝕠𝕟'𝕥 𝕜𝕟𝕠𝕨 𝕨𝕙𝕪 𝕚'𝕞 𝕟𝕠 𝕠𝕟𝕖
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <section class="memory-section">
+        <div class="section-header">
+            <i data-lucide="terminal"></i>
+            <span> #Do you still remember? </span>
+        </div>
+
+        <form class="add-memory-form" id="memoryForm">
+            <input type="text" class="cyber-input" id="memoryInput" placeholder="" required>
+            <button type="submit" class="btn-cyber">
+                <i data-lucide="plus"></i>
+                <span>so get away </span>
+            </button>
+        </form>
+
+        <div class="memory-grid" id="memoryGrid">
+            <div class="memory-card">
+                <div class="memory-date">#Spinosaurus</div>
+
+                <div class="memory-text">ภาพนี้ถ่ายออกมาสวยมากเลยน่ะ จนตอนนี้ยังเก็บไว้อยู่เลย </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    </div>
+
+    <!-- Image Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img src="" alt="Enlarged Memory" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
